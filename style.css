@@ -88,6 +88,26 @@ p{
 
 /* !Aysel */
 
+.site-footer{
+    text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+    background-color: gray;
+	box-sizing: border-box;
+	width: 100%;
+}
+.site-footer .site-left
+.site-footer .site-center
+.site-footer .site-right{
+	display: inline-block;
+	vertical-align: top;
+}
+.footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
 
 
 
