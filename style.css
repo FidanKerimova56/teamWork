@@ -69,11 +69,27 @@ li{
 
 
 /* !Nargiz */
+*{box-sizing:border-box;}
 
+img{
+    height: 300px;
+    width: 300px;
+}
+span{color: green;
+font-style: italic;}
+h1{
 
-
-
-
+    color: chartreuse;
+}
+p{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    /* font-size: 15px; */
+    padding left: 100px;
+    justify-content: space-evenly;
+    display: flex;
+    
+}
 
 
 
@@ -99,6 +115,26 @@ li{
 
 /* !Aysel */
 
+.site-footer{
+    text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+    background-color: gray;
+	box-sizing: border-box;
+	width: 100%;
+}
+.site-footer .site-left
+.site-footer .site-center
+.site-footer .site-right{
+	display: inline-block;
+	vertical-align: top;
+}
+.footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
 
 
 
