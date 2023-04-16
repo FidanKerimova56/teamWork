@@ -1,150 +1,90 @@
 /* !Commonn Css */
-
-
-
-
-
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kanit:wght@700&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 /* !said */
-
-body{font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-weight: 400;
-    font-size: medium;
-    height: 100px;
-
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 100px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+.logo > span {
+  font-size: 30px;
+  font-family: "Kanit", sans-serif;
+  font-style: normal;
+  color: #cea68a;
 }
 
-img{
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 100px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
 
-    height: 50px;
-    width: 50px;
+  font-weight: 400;
+  font-size: medium;
 }
-
-li{list-style-type: none;
-    height: 25px;
-    width: 100px;
-    display: inline-block;
-}
-
-
-
-
-nav{display: flex;
-    justify-content: end;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* !Nargiz */
-*{box-sizing:border-box;}
-
-img{
-    height: 300px;
-    width: 300px;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 97px 100px;
 }
-span{color: green;
-font-style: italic;}
-h1{
-
-    color: chartreuse;
-}
-p{
-   font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
-    /* font-size: 15px; */
-    padding-left: 100px;
-    justify-content: space-evenly;
-    display: flex;
-    
+.content-img {
+  width: 30%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.content-img img {
+  height: 300px;
+  width: 300px;
+}
+.content-text {
+  width: 70%;
+}
+.container span {
+  color: green;
+  font-style: italic;
+}
+.container h1 {
+  text-align: center;
+  color: #cea68a;
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  justify-content: space-evenly;
+  display: flex;
+  line-height: 1.3;
+}
 
 /* !Aysel */
-
-.site-footer{
-    text-align: left;
-	font: bold 16px sans-serif;
-	padding: 55px 50px;
-    background-color: gray;
-	box-sizing: border-box;
-	width: 100%;
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  background-color: rgb(106, 105, 105);
+  color: white;
 }
-.site-footer .site-left
-.site-footer .site-center
-.site-footer .site-right{
-	display: inline-block;
-	vertical-align: top;
+.mail {
+  margin-right: 25px;
 }
-.footer-company-name{
-	color:  #222;
-	font-size: 14px;
-	font-weight: normal;
-	margin: 0;
+.footer-sm img {
+  width: 30px;
+  height: 30px;
+  margin-left: 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
